@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // prevent any default action of the anchor tag
 
         // Create an audio element
-        var audio = new Audio("Music/fwenn.mp3");
+        var audio = new Audio("music/fwenn.mp3");
 
         // Set volume to 70% of the original level
         audio.volume = 0.5;
